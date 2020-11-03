@@ -34,11 +34,16 @@ public class Person {
     public void setAddress(String address) { this.address = address; }
     public void setAge(int age) { this.age = age; }
 
-    //TODO
-    // Implement toString() method.  Can also be auto generated.
-
-
-    //TODO
+    @Override
+    public String toString()
+    {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", age=" + age +
+                '}';
+    }
+//TODO
     // Implement a print() method that simply prints the names
     // and values of each field in Person. Call print() from start().
 

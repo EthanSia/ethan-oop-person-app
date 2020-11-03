@@ -12,7 +12,11 @@ public class App
         app.start();
     }
 
-    public void start() {
+
+
+    public void start()
+    {
+
         // Create (instantiate) a new Person object
         // Initialize it by passing argument values into the constructor
         // The reference "person1" is assigned a reference to the new Person object
@@ -51,6 +55,7 @@ public class App
         // Implement a toString( ) method in the Person class, and run this App again
         // to see how the toString() outputs the contents of the object properly.
 
+        System.out.println(person1.toString());
 
     }
 }
